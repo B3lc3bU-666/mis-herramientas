@@ -1,1 +1,44 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102c35"><title>Mis herramientas</title><style>:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#17313a;background:#f3f6f7}*{box-sizing:border-box}body{margin:0;padding:24px}main{max-width:800px;margin:auto}header{background:#102c35;color:white;border-radius:20px;padding:30px}h1{margin:0 0 8px;font-size:1.8rem}header p{margin:0;color:#c8e0e3}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:22px}a.card{display:block;text-decoration:none;color:inherit;background:white;border:1px solid #dce7e9;border-radius:18px;padding:24px;box-shadow:0 3px 12px #102c350a}a.card:hover,a.card:focus-visible{outline:2px solid #168c78}h2{margin:10px 0;font-size:1.2rem}p{line-height:1.5}.small{color:#5a7076;font-size:.88rem}footer{margin-top:24px;color:#5a7076;font-size:.82rem}</style></head><body><main><header><h1>Mis herramientas</h1><p>Aplicaciones personales accesibles desde cualquier dispositivo</p></header><section class="grid"><a class="card" href="./control_ing.html"><span aria-hidden="true">📊</span><h2>Control ING</h2><p>Control del ciclo de nómina, saldo y previsiones.</p><span class="small">Abrir herramienta →</span></a><a class="card" href="./Presupuesto.html"><span aria-hidden="true">💶</span><h2>Mi presupuesto</h2><p>Ingresos, gastos y proyecciones de ahorro.</p><span class="small">Abrir herramienta →</span></a></section><footer>Los datos introducidos se guardan en el navegador de cada dispositivo. No existe sincronización automática.</footer></main></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#17343b" media="(prefers-color-scheme:light)">
+<meta name="theme-color" content="#101a22" media="(prefers-color-scheme:dark)">
+<meta name="color-scheme" content="light dark">
+<title>Mis herramientas · Portal personal</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body class="portal-home">
+<main class="portal-shell">
+  <div class="portal-top">
+    <div class="portal-logo"><span class="portal-mark" aria-hidden="true">◈</span><span>Mis herramientas</span></div>
+    <span class="portal-mode" aria-label="El tema se adapta a tu dispositivo">◐ Modo automático</span>
+  </div>
+  <header class="portal-hero">
+    <div class="portal-kicker">Tu espacio personal</div>
+    <h1>Todo bajo control.<br>En un solo lugar.</h1>
+    <p>Consulta tu presupuesto, organiza tus gastos y planifica tus próximos pasos desde el móvil o el ordenador.</p>
+  </header>
+  <section aria-labelledby="herramientas">
+    <div class="portal-section-head"><h2 id="herramientas">Tus aplicaciones</h2><span class="portal-count">2 herramientas</span></div>
+    <div class="portal-grid">
+      <a class="portal-tool" href="./control_ing.html">
+        <span class="portal-tool-icon" aria-hidden="true">💳</span>
+        <h3>Control ING</h3>
+        <p>Controla el ciclo de nómina, consulta el saldo y visualiza tus previsiones cada cinco días.</p>
+        <span class="portal-tool-action">Abrir Control ING <span aria-hidden="true">↗</span></span>
+      </a>
+      <a class="portal-tool" href="./Presupuesto.html">
+        <span class="portal-tool-icon" aria-hidden="true">📈</span>
+        <h3>Mi presupuesto</h3>
+        <p>Gestiona ingresos y gastos, calcula el ahorro y explora escenarios de futuro.</p>
+        <span class="portal-tool-action">Abrir Mi presupuesto <span aria-hidden="true">↗</span></span>
+      </a>
+    </div>
+  </section>
+  <aside class="portal-disclaimer"><span aria-hidden="true">🔒</span><span>Los datos de las aplicaciones se guardan en el navegador de cada dispositivo. No se publican en el portal y todavía no se sincronizan automáticamente entre dispositivos.</span></aside>
+  <footer class="portal-footer">Mis herramientas · Espacio personal</footer>
+</main>
+</body>
+</html>
